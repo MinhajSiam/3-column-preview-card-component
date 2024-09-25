@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL:** [Add your solution URL here](https://github.com/MinhajSiam/3-column-preview-card-component)
-- **Live Site URL:** [Add your live site URL here](https://minhajsiam.github.io/3-column-preview-card-component)
+- **Solution URL:** [Github Repository Link](https://github.com/MinhajSiam/3-column-preview-card-component)
+- **Live Site URL:** [Live Site Link](https://minhajsiam.github.io/3-column-preview-card-component)
 
 ## My process
 
@@ -49,24 +49,24 @@ I focused on using **Flexbox** for this project to create a responsive and flexi
 
 ```css
 main {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
 
-        .sedans {
-            flex: 1;
-        }
+.sedans {
+      flex: 1;
+      }
 
-        .suvs {
-            flex: 1;
-        }
+.suvs {
+    flex: 1;
+    }
 
-        .luxury {
-            flex: 1;
-        }
+.luxury {
+      flex: 1;
+      }
 ```
 
 This helped me create a flexible 3-column layout that adapts well to different screen sizes.
@@ -83,7 +83,7 @@ I want to continue honing my skills with Flexbox and work more on responsive des
 ## Author
 
 - Frontend Mentor - [@MinhajSiam](https://www.frontendmentor.io/profile/MinhajSiam)
-- Twitter - [@MinhajSiam](https://github.com/MinhajSiam)
+- GitHub - [@MinhajSiam](https://github.com/MinhajSiam)
 
 ## Acknowledgments
 
