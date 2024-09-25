@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-column-preview-card-component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: "Lexend Deca", "Big Shoulders Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .sedans {
+        background-color: hsl(31, 77%, 52%);
+    }
+
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+    }
+
+    h2 {
+        color: hsl(0, 0%, 95%);
+    }
+
+    p {
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 30px;
+    }
+
+    div {
+        padding: 50px;
+    }
+
+    #sedans-btn {
+        text-decoration: none;
+        color: hsl(31, 77%, 52%);
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+
+    #suvs-btn {
+        text-decoration: none;
+        color: hsl(184, 100%, 22%);
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+
+    #luxury-btn {
+        text-decoration: none;
+        color: hsl(179, 100%, 13%);
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+
+    @media (min-width:1440px) {
+        div {
+            max-width: 200px;
+        }
+
+        main {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .sedans {
+            flex: 1;
+            border-radius: 10px 0 0 10px;
+        }
+
+        .suvs {
+            flex: 1;
+        }
+
+        .luxury {
+            flex: 1;
+            border-radius: 0 10px 10px 0;
+        }
+    }
+</style>
+
+<body>
+    <main>
+        <div class="sedans">
+            <img src="./images/icon-sedans.svg" alt="">
+            <h2>SEDANS</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus esse assumenda consequatur
+                necessitatibus dolorem earum sequi excepturi et eligendi</p>
+            <a id="sedans-btn" href="#">Learn More</a>
+        </div>
+        <div class="suvs">
+            <img src="./images/icon-suvs.svg" alt="">
+            <h2>SUVS</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus esse assumenda consequatur
+                necessitatibus dolorem earum sequi excepturi et eligendi</p>
+            <a id="suvs-btn" href="#">Learn More</a>
+        </div>
+        <div class="luxury">
+            <img src="./images/icon-luxury.svg" alt="">
+            <h2>LUXURY</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus esse assumenda consequatur
+                necessitatibus dolorem earum sequi excepturi et eligendi</p>
+            <a id="luxury-btn" href="#">Learn More</a>
+        </div>
+    </main>
+</body>
+
+</html>
